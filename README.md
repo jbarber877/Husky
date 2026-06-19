@@ -4,8 +4,11 @@ this is a prototype project operating a vehicle with gesture control. Eventually
 Download and extract https://github.com/DFRobot/DFRobot_HuskylensV2/tree/master
 
 Make sure you have smbus and pyserial installed on raspberry pi
+```
 sudo apt install python3-smbus
 sudo apt install python3-serial
+```
+To create an access point, create a hotspot on the master pi. connect to it on the slave just like connecting to a network.
 
 ### Wiring Diagram
 Raspberry Pi 5
